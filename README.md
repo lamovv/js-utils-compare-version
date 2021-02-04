@@ -3,6 +3,7 @@
 > compareVersion
 
 [![Coverage Status](https://coveralls.io/repos/github/lamovv/js-utils-compare-version/badge.svg?branch=master)](https://coveralls.io/github/lamovv/js-utils-compare-version?branch=master)
+[![NPM version](https://img.shields.io/npm/v/@js-util-fn/compare-version.svg)](https://www.npmjs.com/package/@js-util-fn/compare-version)
 
 - 配置coveralls token
   - [ADD REPO](https://coveralls.io/repos/new)，将关联的仓库置为`ON`，进入`DETAILS` 里查看`repo_token`
