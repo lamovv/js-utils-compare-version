@@ -2,7 +2,7 @@
 import 'console-log-h5';
 
 import {
-  empty
+  compareVersion
 } from '@js-util-fn/compare-version';
 
 
@@ -11,9 +11,9 @@ document.addEventListener('click', e => {
 
   let ret;
   switch (action) {
-    case 'empty':
-      ret = empty<string[]>([]);
-      console.log(`empty([]) is ${ret}`);
+    case 'compareVersion':
+      ret = compareVersion('1.1.0', '1.2.1');
+      console.log(`${ret}`);
       break;
     case 'mock':
       fetch('/api/getData.json')
